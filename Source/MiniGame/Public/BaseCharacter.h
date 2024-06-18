@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "BaseCharacter.generated.h"
 
+
+
 UCLASS()
 class MINIGAME_API ABaseCharacter : public ACharacter
 {
