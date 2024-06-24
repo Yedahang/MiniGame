@@ -46,4 +46,6 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="BaseAttributeSet")
 	FGameplayAttributeData MaxStrength;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxStrength);
+	
+	virtual void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData &Data) override;
 };

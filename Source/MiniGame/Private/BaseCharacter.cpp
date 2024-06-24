@@ -3,6 +3,9 @@
 
 #include "BaseCharacter.h"
 
+#include "AbilitySystemComponent.h"
+#include "BaseAttributeSet.h"
+
 // Sets default values
 ABaseCharacter::ABaseCharacter()
 {
@@ -15,7 +18,13 @@ ABaseCharacter::ABaseCharacter()
 void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	UAbilitySystemComponent* MyAbilitySystemComponent = this->FindComponentByClass<UAbilitySystemComponent>();
+	if(MyAbilitySystemComponent)
+	{
+		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetHPAttribute()).AddUObject(this,&ABaseCharacter::OnHealthAttributeChanged);
+		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetMPAttribute()).AddUObject(this,&ABaseCharacter::OnMPAttributeChanged);
+		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetStrengthAttribute()).AddUObject(this,&ABaseCharacter::OnStrengthAttributeChanged);
+	}
 }
 
 // Called every frame
@@ -30,5 +39,32 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void ABaseCharacter::OnHealthAttributeChanged(const FOnAttributeChangeData& Data)
+{
+	HPChangeEvent.Broadcast(Data.NewValue);
+}
+
+void ABaseCharacter::OnMPAttributeChanged(const FOnAttributeChangeData& Data)
+{
+	MPChangeEvent.Broadcast(Data.NewValue);
+}
+
+void ABaseCharacter::OnStrengthAttributeChanged(const FOnAttributeChangeData& Data)
+{
+	StrengthChangeEvent.Broadcast(Data.NewValue);
+}
+
+FGameplayAbilityInfo ABaseCharacter::GameplayAbilityInfo(TSubclassOf<UBaseGameplayAbility> AbilityClass, int level)
+{
+	UAbilitySystemComponent* MyAbilitySystemComponent = this->FindComponentByClass<UAbilitySystemComponent>();
+
+	UBaseGameplayAbility* AbilityInstance = AbilityClass->GetDefaultObject<UBaseGameplayAbility>();
+	if(MyAbilitySystemComponent && AbilityInstance)
+	{
+		return AbilityInstance->GetAbilityInfo(level);
+	}
+	return FGameplayAbilityInfo();
 }
 
