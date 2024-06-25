@@ -35,6 +35,7 @@ FGameplayAbilityInfo UBaseGameplayAbility::GetAbilityInfo(int level)
 		if(CostEffect->Modifiers.Num()>0)
 		{
 			FGameplayModifierInfo CostEffectModifierInfo = CostEffect->Modifiers[0];
+			
 			CostEffectModifierInfo.ModifierMagnitude.GetStaticMagnitudeIfPossible(level,CostValue);
 			FString CostTypeName = CostEffectModifierInfo.Attribute.AttributeName;
 			if (CostTypeName == "HP")
