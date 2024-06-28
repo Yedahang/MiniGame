@@ -22,8 +22,10 @@ void ABaseCharacter::BeginPlay()
 	if(MyAbilitySystemComponent)
 	{
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetHPAttribute()).AddUObject(this,&ABaseCharacter::OnHealthAttributeChanged);
+
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetMPAttribute()).AddUObject(this,&ABaseCharacter::OnMPAttributeChanged);
-		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetStrengthAttribute()).AddUObject(this,&ABaseCharacter::OnStrengthAttributeChanged);
+		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetStrengthAttribute()).AddUObject(this,&ABaseCharacter::OnStrengthAttributeChanged);	
+
 	}
 }
 
@@ -43,17 +45,34 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 void ABaseCharacter::OnHealthAttributeChanged(const FOnAttributeChangeData& Data)
 {
+	//if(HasAuthority())
+	//{
 	HPChangeEvent.Broadcast(Data.NewValue);
+	//}
+	if (GetLocalRole() == ROLE_Authority)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Server: Health changed to %f"), Data.NewValue);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Log, TEXT("Client: Health changed to %f"), Data.NewValue);
+	}
 }
 
 void ABaseCharacter::OnMPAttributeChanged(const FOnAttributeChangeData& Data)
 {
-	MPChangeEvent.Broadcast(Data.NewValue);
+	if(HasAuthority())
+	{
+		MPChangeEvent.Broadcast(Data.NewValue);
+	}
 }
 
 void ABaseCharacter::OnStrengthAttributeChanged(const FOnAttributeChangeData& Data)
 {
-	StrengthChangeEvent.Broadcast(Data.NewValue);
+	if(HasAuthority())
+	{
+		StrengthChangeEvent.Broadcast(Data.NewValue);
+	}
 }
 
 FGameplayAbilityInfo ABaseCharacter::GameplayAbilityInfo(TSubclassOf<UBaseGameplayAbility> AbilityClass, int level)
