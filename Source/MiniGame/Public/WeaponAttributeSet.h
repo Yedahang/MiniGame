@@ -27,6 +27,7 @@ public:
 	ATTRIBUTE_ACCESSORS(UWeaponAttributeSet, Damage);
 	
 protected:
+	UFUNCTION()
 	virtual void OnRep_Damage(const FGameplayAttributeData& OldDamage);
 	
 };
