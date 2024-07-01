@@ -18,6 +18,13 @@ enum class ECostType : uint8
 	Strength
 };
 
+UENUM(BlueprintType)
+enum class EGASAbilityInputID : uint8
+{
+	None UMETA(DisplayName="None"),
+	Melee UMETA(DisplayName="Melee")
+};
+
 USTRUCT(BlueprintType)
 struct FGameplayAbilityInfo 
 {
@@ -52,4 +59,7 @@ public:
 
 	UFUNCTION(BlueprintCallable,Category="AbilityInfo")
 	FGameplayAbilityInfo GetAbilityInfo(int level);
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="GAS|Binding")
+	TMap<EGASAbilityInputID,TSubclassOf<UGameplayAbility>> GASBinding;
 };

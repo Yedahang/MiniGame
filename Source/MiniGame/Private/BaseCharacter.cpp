@@ -25,7 +25,7 @@ void ABaseCharacter::BeginPlay()
 
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetMPAttribute()).AddUObject(this,&ABaseCharacter::OnMPAttributeChanged);
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetStrengthAttribute()).AddUObject(this,&ABaseCharacter::OnStrengthAttributeChanged);	
-
+		
 	}
 }
 
@@ -40,6 +40,14 @@ void ABaseCharacter::Tick(float DeltaTime)
 void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	UAbilitySystemComponent* MyAbilitySystemComponent = this->FindComponentByClass<UAbilitySystemComponent>();
+	if(MyAbilitySystemComponent)
+	{
+		MyAbilitySystemComponent->BindAbilityActivationToInputComponent(PlayerInputComponent,
+			FGameplayAbilityInputBinds(FString(),FString(),
+					FString("EGASAbilityInputID"),-1,-1));
+		
+	}
 
 }
 
