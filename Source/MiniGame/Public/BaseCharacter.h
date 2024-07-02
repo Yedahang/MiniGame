@@ -10,6 +10,14 @@ struct FOnAttributeChangeData;
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHealthChangeEvent, float, NewValue);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMPChangeEvent, float, NewValue);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStrengthChangeEvent, float, NewValue);
+
+UENUM(BlueprintType)
+enum class EGASAbilityInputID : uint8
+{
+	None UMETA(DisplayName="None"),
+	Melee UMETA(DisplayName="Melee")
+};
+
 UCLASS()
 class MINIGAME_API ABaseCharacter : public ACharacter
 {
@@ -47,4 +55,7 @@ public:
 
 	UFUNCTION(BlueprintCallable,Category="BaseCharacter")
 	FGameplayAbilityInfo GameplayAbilityInfo(TSubclassOf<UBaseGameplayAbility>AbilityClass, int level);
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="GAS|Binding")
+	TMap<EGASAbilityInputID,TSubclassOf<UGameplayAbility>> GASBinding;
 };
