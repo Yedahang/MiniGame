@@ -53,5 +53,4 @@ public:
 
 	UFUNCTION(BlueprintCallable,Category="AbilityInfo")
 	FGameplayAbilityInfo GetAbilityInfo(int level);
-	
 };
