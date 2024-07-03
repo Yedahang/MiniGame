@@ -15,7 +15,8 @@ UENUM(BlueprintType)
 enum class EGASAbilityInputID : uint8
 {
 	None UMETA(DisplayName="None"),
-	Melee UMETA(DisplayName="LeftMouseButton")
+	LeftMouseButton UMETA(DisplayName="LeftMouseButton"),
+	RightMouseButton UMETA(DisplayName="RightMouseButton")
 };
 
 UCLASS()

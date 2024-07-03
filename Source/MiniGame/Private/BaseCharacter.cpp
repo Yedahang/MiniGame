@@ -44,10 +44,13 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	if(MyAbilitySystemComponent)
 	{
 		
-		const FTopLevelAssetPath EnumPath(TEXT("/Script/MiniGame.EGASAbilityInputID"));
+		/*const FTopLevelAssetPath EnumPath(TEXT("/Script/MiniGame.EGASAbilityInputID"));
 		MyAbilitySystemComponent->BindAbilityActivationToInputComponent(PlayerInputComponent,
 			FGameplayAbilityInputBinds(FString(),FString(),
-					EnumPath,-1,-1));
+					EnumPath,-1,-1));*/
+		MyAbilitySystemComponent->BindAbilityActivationToInputComponent(PlayerInputComponent,FGameplayAbilityInputBinds(
+																	  FString(), FString(),
+																	  FString("EGASAbilityInputID"), -1, -1));
 		
 	}
 
