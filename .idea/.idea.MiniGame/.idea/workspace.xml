@@ -5,6 +5,7 @@
     <projectFile profileName="EpicGames.AspNet">../../../../../UE_5.3/Engine/Source/Programs/Shared/EpicGames.AspNet/EpicGames.AspNet.csproj</projectFile>
     <projectFile>../../../../../UE_5.3/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj</projectFile>
     <projectFile>Intermediate/ProjectFiles/MiniGame.vcxproj</projectFile>
+    <projectFile>Intermediate/ProjectFiles/UE5.vcxproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -12,68 +13,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5f78f275-d13d-4765-a152-edfb5cc0b9d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/Ability/FunctionalAbility/01PickUp/GAB_PickUp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Ability/FunctionalAbility/01PickUp/GAB_PickUp.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/Ability/FunctionalAbility/02SUseItem/GAB_UseItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Ability/FunctionalAbility/02SUseItem/GAB_UseItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/Ability/FunctionalAbility/03DropItem/GAB_DropItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Ability/FunctionalAbility/03DropItem/GAB_DropItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/AttachmentInfo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/BI_InventoryPickableItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/BP_BaseItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/BP_Katana_PickupItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/BP_PickupItem_Katana.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/BP_PickupItem_Sword.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Component/AC_InventoryComponent.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Component/AC_InventoryManagerComponent.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/InventoryItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_DragItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_DraggedItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_Hotbar.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_Hotbar_Slot.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_Inventory.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_InventoryLayout.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Inventory/UMG_InventorySlot.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/InventoryHUDInterface.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Coin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Empty.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Accessory.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Chest.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Feet.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Hands.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Head.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Legs.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Main_Hand.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Off_Hand.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Ring.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Shoulder.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Trinket.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_ICON_Slot_Waist.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_UI_Crosshair.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_UI_Item_Border.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_UI_Loot_Name.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_UI_Player_Icon.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_UI_Slot.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/Textures/T_UI_Square.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/UMG/UMG_HUDLayout.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Weapon/BP_PickupItem_DualWielding.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Weapon/BP_PickupItem_Katana.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Weapon/BP_PickupItem_Sword.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Weapon/BP_WeaponItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Weapon/BP_WeaponItem_Katana.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BagSystem/Weapon/BP_WeaponItem_Sword.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/ABP_Shinbi_GhostSamurai.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/ABP_Shinbi_GhostSamurai.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/ABP_Sinbi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/ABP_Sinbi.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montage/GhostSamurai_Bundle/MA_Melee1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Montage/GhostSamurai_Bundle/MA_Melee1.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/Gameplay/BP_HUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Gameplay/BP_HUD.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BP/Gameplay/BP_PlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Gameplay/BP_PlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/BP_WeaponPickUP_Katana.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/BP_WeaponPickUP_Katana.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Katana.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Katana.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WQ/太刀/MI_golden_fantasy_sword_0_Material_37.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WQ/太刀/SM_golden_fantasy_sword_0_Fantasy_Golden_Sword_Material__37_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WQ/太刀/T_golden_fantasy_sword_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WQ/太刀/T_golden_fantasy_sword_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WQ/太刀/T_golden_fantasy_sword_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MiniGame/Public/BaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MiniGame/Public/BaseCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MiniGame/Public/BaseGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MiniGame/Public/BaseGameplayAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +126,177 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="UE5" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Shipping" />
+        <option name="PLATFORM" value="Win64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_1>
+      <configuration_2>
+        <option name="CONFIGURATION" value="DebugGame" />
+        <option name="PLATFORM" value="Win64-arm64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="Development Editor" />
+        <option name="PLATFORM" value="Win64-arm64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Shipping" />
+        <option name="PLATFORM" value="Win64-arm64ec" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_4>
+      <configuration_5>
+        <option name="CONFIGURATION" value="DebugGame" />
+        <option name="PLATFORM" value="Win64-arm64ec" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_5>
+      <configuration_6>
+        <option name="CONFIGURATION" value="Development Editor" />
+        <option name="PLATFORM" value="Win64-arm64ec" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_6>
+      <configuration_7>
+        <option name="CONFIGURATION" value="Development" />
+        <option name="PLATFORM" value="Win64-arm64ec" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_7>
+      <configuration_8>
+        <option name="CONFIGURATION" value="DebugGame Editor" />
+        <option name="PLATFORM" value="Win64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_8>
+      <configuration_9>
+        <option name="CONFIGURATION" value="Development" />
+        <option name="PLATFORM" value="Win64-arm64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_9>
+      <configuration_10>
+        <option name="CONFIGURATION" value="Shipping" />
+        <option name="PLATFORM" value="Win64-arm64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_10>
+      <configuration_11>
+        <option name="CONFIGURATION" value="DebugGame" />
+        <option name="PLATFORM" value="Win64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_11>
+      <configuration_12>
+        <option name="CONFIGURATION" value="DebugGame Editor" />
+        <option name="PLATFORM" value="Win64-arm64ec" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_12>
+      <configuration_13>
+        <option name="CONFIGURATION" value="DebugGame Editor" />
+        <option name="PLATFORM" value="Win64-arm64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_13>
+      <configuration_14>
+        <option name="CONFIGURATION" value="Development Editor" />
+        <option name="PLATFORM" value="Win64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_14>
+      <configuration_15>
+        <option name="CONFIGURATION" value="Development" />
+        <option name="PLATFORM" value="Win64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_15>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="AutomationTool" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -241,6 +360,9 @@
       <workItem from="1718614233644" duration="1193000" />
       <workItem from="1718851195628" duration="431000" />
       <workItem from="1719918404619" duration="225000" />
+      <workItem from="1720409588246" duration="52000" />
+      <workItem from="1720409664117" duration="76000" />
+      <workItem from="1720427870658" duration="2395000" />
     </task>
     <servers />
   </component>
