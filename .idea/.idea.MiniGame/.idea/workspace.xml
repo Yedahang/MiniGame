@@ -12,16 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f78f275-d13d-4765-a152-edfb5cc0b9d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/ABP_Shinbi_GhostSamurai.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/ABP_Shinbi_GhostSamurai.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/ABP_Sinbi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/ABP_Sinbi.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Montage/GhostSamurai_Bundle/MA_Melee1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Montage/GhostSamurai_Bundle/MA_Melee1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/Gameplay/BP_PlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Gameplay/BP_PlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Katana.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Katana.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Character/Boss/02Unka/GAB_BaseAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/Boss/02Unka/GAB_BaseAbility.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../UE_5.3/Engine/Source/Programs/AutomationTool/BuildGraph/BgScriptReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/MiniGame/MiniGame.Build.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -363,6 +356,7 @@
       <workItem from="1720409588246" duration="52000" />
       <workItem from="1720409664117" duration="76000" />
       <workItem from="1720427870658" duration="2395000" />
+      <workItem from="1720665306143" duration="859000" />
     </task>
     <servers />
   </component>
