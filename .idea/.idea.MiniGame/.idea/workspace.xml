@@ -12,8 +12,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f78f275-d13d-4765-a152-edfb5cc0b9d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/BP/Character/Boss/02Unka/GAB_BaseAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/Boss/02Unka/GAB_BaseAbility.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/BI_InventoryPickableItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/BI_InventoryPickableItem.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/BP_BaseItem.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_CharacterInventoryComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_CharacterInventoryComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryManagerComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryManagerComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/InventoryItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/InventoryItem.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/ItemList.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/ItemList.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DragItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DragItem.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DraggedItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DraggedItem.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_Hotbar_Slot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_Hotbar_Slot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_InventorySlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_InventorySlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Usables/World_Actor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Usables/World_Actor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/AC_WeaponManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/AC_WeaponManager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/Ability/GAB_LongSword_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/Ability/GAB_LongSword_Melee.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_CharagingMelee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_CharagingMelee.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee5.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee5.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_DualSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_DualSword.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/WQ/双刀/SM_dao_0_Object032.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WQ/双刀/SM_dao_0_Object032.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +52,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../UE_5.3/Engine/Source/Programs/AutomationTool/BuildGraph/BgScriptReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AttributeSet.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/MiniGame/MiniGame.Build.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -357,6 +385,7 @@
       <workItem from="1720409664117" duration="76000" />
       <workItem from="1720427870658" duration="2395000" />
       <workItem from="1720665306143" duration="859000" />
+      <workItem from="1721014407136" duration="710000" />
     </task>
     <servers />
   </component>
