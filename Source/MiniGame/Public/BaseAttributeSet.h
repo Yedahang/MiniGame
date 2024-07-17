@@ -46,6 +46,11 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="BaseAttributeSet",ReplicatedUsing=OnRep_MaxStrength)
 	FGameplayAttributeData MaxStrength;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxStrength);
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="BaseAttributeSet",ReplicatedUsing=OnRep_AttackPower)
+	FGameplayAttributeData AttackPower;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, AttackPower)
+	
 	
 	virtual void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData &Data) override;
 
@@ -66,6 +71,9 @@ public:
 
 	UFUNCTION()
 	virtual void OnRep_MaxStrength(const FGameplayAttributeData& OldMaxStrength);
+
+	UFUNCTION()
+	virtual void OnRep_AttackPower(const FGameplayAttributeData& OldAttackPower);
 	
 	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 };

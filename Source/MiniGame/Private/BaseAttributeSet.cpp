@@ -54,6 +54,11 @@ void UBaseAttributeSet::OnRep_MaxStrength(const FGameplayAttributeData& OldMaxSt
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UBaseAttributeSet, MaxStrength, OldMaxStrength);
 }
 
+void UBaseAttributeSet::OnRep_AttackPower(const FGameplayAttributeData& OldAttackPower)
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UBaseAttributeSet, AttackPower, OldAttackPower);
+}
+
 void UBaseAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
@@ -63,4 +68,5 @@ void UBaseAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 	DOREPLIFETIME_CONDITION_NOTIFY(UBaseAttributeSet,MaxMP,COND_None,REPNOTIFY_Always);
 	DOREPLIFETIME_CONDITION_NOTIFY(UBaseAttributeSet,Strength,COND_None,REPNOTIFY_Always);
 	DOREPLIFETIME_CONDITION_NOTIFY(UBaseAttributeSet,MaxStrength,COND_None,REPNOTIFY_Always);
+	DOREPLIFETIME_CONDITION_NOTIFY(UBaseAttributeSet,AttackPower,COND_None,REPNOTIFY_Always);
 }
