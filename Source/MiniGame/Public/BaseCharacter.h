@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "AbilitySystemInterface.h"
 #include "BaseGameplayAbility.h"
 #include "GameFramework/Character.h"
 #include "BaseCharacter.generated.h"
@@ -20,7 +21,7 @@ enum class EGASAbilityInputID : uint8
 };
 
 UCLASS()
-class MINIGAME_API ABaseCharacter : public ACharacter
+class MINIGAME_API ABaseCharacter : public ACharacter,public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
@@ -59,4 +60,16 @@ public:
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="GAS|Binding")
 	TMap<EGASAbilityInputID,TSubclassOf<UGameplayAbility>> GASBinding;
+
+	UPROPERTY(BlueprintReadOnly,Category="Ability")
+	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
+
+	
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override
+	{
+		return AbilitySystemComponent.Get();
+		// return nullptr;
+	}
+
+	
 };
