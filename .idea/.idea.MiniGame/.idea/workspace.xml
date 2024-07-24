@@ -13,34 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5f78f275-d13d-4765-a152-edfb5cc0b9d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Ability/00Melee/GAB_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Ability/00Melee/GAB_Melee.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/BossSystem/01Boss/BT_BossAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/BossSystem/01Boss/BT_BossAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/BossSystem/DT_BoneDamage_Unka.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/BossSystem/DT_BoneDamage_Unka.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Character/AI/00Enemy/BTT_AttackMelee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/AI/00Enemy/BTT_AttackMelee.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Character/BP_BaseCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/BP_BaseCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Character/BP_Enemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/BP_Enemy.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/BI_InventoryPickableItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/BI_InventoryPickableItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/BP_BaseItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_CharacterInventoryComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_CharacterInventoryComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryManagerComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Component/AC_InventoryManagerComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/InventoryItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/InventoryItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/ItemList.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/ItemList.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DragItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DragItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DraggedItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_DraggedItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_Hotbar_Slot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_Hotbar_Slot.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_InventorySlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/UMG/Inventory/UMG_InventorySlot.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/InventorySystem/Usables/World_Actor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/InventorySystem/Usables/World_Actor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/AC_WeaponManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/AC_WeaponManager.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/Ability/GAB_LongSword_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/Ability/GAB_LongSword_Melee.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_CharagingMelee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_CharagingMelee.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee3.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee4.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee5.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/MA_Melee5.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_DualSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_DualSword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Gameplay/BP_PlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Gameplay/BP_PlayerController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Katana/Ability/01GhostSamurai_Melee/GE_Katana_Damage.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Katana/Ability/01GhostSamurai_Melee/GE_Katana_Damage.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WQ/双刀/SM_dao_0_Object032.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WQ/双刀/SM_dao_0_Object032.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +34,107 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../UE_5.3/Engine/Source/Programs/AutomationTool/BuildGraph/BgScriptReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AttributeSet.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AttributeSet.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/MiniGame/MiniGame.Build.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -64,27 +146,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C++ Project.MiniGame.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ezargs.lastUsed": "",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CppUnrealEngineOptionsId",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\darylye\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\darylye\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C++ Project.MiniGame">
     <configuration name="MiniGame" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -387,6 +471,8 @@
       <workItem from="1720665306143" duration="859000" />
       <workItem from="1721014407136" duration="710000" />
       <workItem from="1721290248083" duration="3000" />
+      <workItem from="1721790418627" duration="17309000" />
+      <workItem from="1721823518668" duration="4162000" />
     </task>
     <servers />
   </component>
@@ -395,5 +481,80 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemComponent.h</url>
+          <line>276</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>948</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>938</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>945</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>1265</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/GameplayCueManager.cpp</url>
+          <line>119</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/GameplayCueSet.cpp</url>
+          <line>347</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>960</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/GameplayCueSet.cpp</url>
+          <line>348</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>1249</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>1431</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/AbilitySystemComponent.cpp</url>
+          <line>1439</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../../../../UE_5.4/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/GameplayCueManager.cpp</url>
+          <line>1446</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
