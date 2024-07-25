@@ -60,18 +60,11 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 void ABaseCharacter::OnHealthAttributeChanged(const FOnAttributeChangeData& Data)
 {
-	//if(HasAuthority())
-	//{
+	if(HasAuthority())
+	{
 	HPChangeEvent.Broadcast(Data.NewValue);
-	//}
-	if (GetLocalRole() == ROLE_Authority)
-	{
-		UE_LOG(LogTemp, Log, TEXT("Server: Health changed to %f"), Data.NewValue);
 	}
-	else
-	{
-		UE_LOG(LogTemp, Log, TEXT("Client: Health changed to %f"), Data.NewValue);
-	}
+
 }
 
 void ABaseCharacter::OnMPAttributeChanged(const FOnAttributeChangeData& Data)
