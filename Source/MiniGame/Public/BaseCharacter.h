@@ -68,7 +68,6 @@ public:
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override
 	{
 		return AbilitySystemComponent.Get();
-		// return nullptr;
 	}
 
 	

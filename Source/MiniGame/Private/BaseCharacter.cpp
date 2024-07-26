@@ -62,7 +62,7 @@ void ABaseCharacter::OnHealthAttributeChanged(const FOnAttributeChangeData& Data
 {
 	if(HasAuthority())
 	{
-	HPChangeEvent.Broadcast(Data.NewValue);
+		HPChangeEvent.Broadcast(Data.NewValue);
 	}
 
 }
