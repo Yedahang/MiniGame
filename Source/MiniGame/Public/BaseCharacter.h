@@ -11,17 +11,21 @@ struct FOnAttributeChangeData;
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHealthChangeEvent, float, NewValue);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMPChangeEvent, float, NewValue);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStrengthChangeEvent, float, NewValue);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCharacterDiedDelegate,ABaseCharacter*,Character);
 
 UENUM(BlueprintType)
 enum class EGASAbilityInputID : uint8
 {
 	None UMETA(DisplayName="None"),
 	LeftMouseButton UMETA(DisplayName="LeftMouseButton"),
-	RightMouseButton UMETA(DisplayName="RightMouseButton")
+	RightMouseButton UMETA(DisplayName="RightMouseButton"),
+	LeftShift UMETA(DisplayName="LeftShift"),
+	V UMETA(DisplayName="V"),
+	R UMETA(DisplayName="R"),
 };
 
 UCLASS()
-class MINIGAME_API ABaseCharacter : public ACharacter,public IAbilitySystemInterface
+class MINIGAME_API ABaseCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -29,11 +33,16 @@ public:
 	// Sets default values for this character's properties
 	ABaseCharacter();
 
+	UPROPERTY(BlueprintAssignable, Category = "MiniGame|Character")
+	FOnCharacterDiedDelegate OnCharacterDied;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
+	virtual void Die();
+	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -60,15 +69,7 @@ public:
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="GAS|Binding")
 	TMap<EGASAbilityInputID,TSubclassOf<UGameplayAbility>> GASBinding;
-
-	UPROPERTY(BlueprintReadOnly,Category="Ability")
-	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
-
-	
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override
-	{
-		return AbilitySystemComponent.Get();
-	}
-
-	
+protected:
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "MiniGame|Animation")
+	UAnimMontage* DeathMontage;
 };

@@ -11,9 +11,7 @@ ABaseCharacter::ABaseCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
-	AbilitySystemComponent->SetReplicationMode(EGameplayEffectReplicationMode::Full);
+	
 }
 
 // Called when the game starts or when spawned
@@ -24,17 +22,22 @@ void ABaseCharacter::BeginPlay()
 	if(MyAbilitySystemComponent)
 	{
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetHPAttribute()).AddUObject(this,&ABaseCharacter::OnHealthAttributeChanged);
-
+		// MyAbilitySystemComponent->RegisterGameplayTagEvent()
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetMPAttribute()).AddUObject(this,&ABaseCharacter::OnMPAttributeChanged);
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetStrengthAttribute()).AddUObject(this,&ABaseCharacter::OnStrengthAttributeChanged);	
 		
 	}
 }
 
+void ABaseCharacter::Die()
+{
+	OnCharacterDied.Broadcast(this);
+}
+
 // Called every frame
 void ABaseCharacter::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(DeltaTime);	
 
 }
 
