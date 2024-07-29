@@ -22,7 +22,6 @@ void ABaseCharacter::BeginPlay()
 	if(MyAbilitySystemComponent)
 	{
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetHPAttribute()).AddUObject(this,&ABaseCharacter::OnHealthAttributeChanged);
-		// MyAbilitySystemComponent->RegisterGameplayTagEvent()
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetMPAttribute()).AddUObject(this,&ABaseCharacter::OnMPAttributeChanged);
 		MyAbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(UBaseAttributeSet::GetStrengthAttribute()).AddUObject(this,&ABaseCharacter::OnStrengthAttributeChanged);	
 		
@@ -67,7 +66,6 @@ void ABaseCharacter::OnHealthAttributeChanged(const FOnAttributeChangeData& Data
 	{
 		HPChangeEvent.Broadcast(Data.NewValue);
 	}
-
 }
 
 void ABaseCharacter::OnMPAttributeChanged(const FOnAttributeChangeData& Data)
