@@ -12,19 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f78f275-d13d-4765-a152-edfb5cc0b9d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/BossSystem/BPC_Boss_Behavior.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/BossSystem/BPC_Boss_Behavior.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/DualSword/Ability/GAB_DualSword_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/DualSword/Ability/GAB_DualSword_Melee.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/DualSword/Ability/NewBlueprint.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Katana/Ability/01GhostSamurai_Melee/GAB_Katana_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Katana/Ability/01GhostSamurai_Melee/GAB_Katana_Melee.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Katana/Ability/01GhostSamurai_Melee/GE_Katana_Damage.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Katana/Ability/01GhostSamurai_Melee/GE_Katana_Damage_ModMagnitudeCalculation.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/Ability/GAB_LongSword_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/LongSword/Ability/GAB_LongSword_Melee.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_DualSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_DualSword.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_LongSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/WeaponsSystem/Weapon_LongSword.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MiniGame/Private/BaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MiniGame/Private/BaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/BossSystem/Boss/02Unka/03FireBall/GAB_FireBall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/BossSystem/Boss/02Unka/03FireBall/GAB_FireBall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FXVarietyPack/Blueprints/BP_ky_fireBall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FXVarietyPack/Blueprints/BP_ky_fireBall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Map/GAS_Test.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,29 +137,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.MiniGame.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ezargs.lastUsed": "",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CppUnrealEngineOptionsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.MiniGame.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ezargs.lastUsed&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CppUnrealEngineOptionsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\darylye\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\darylye\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\darylye\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.MiniGame">
     <configuration name="MiniGame" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -497,6 +487,7 @@
       <workItem from="1721790418627" duration="17309000" />
       <workItem from="1721823518668" duration="4162000" />
       <workItem from="1721907382193" duration="1242000" />
+      <workItem from="1722400662491" duration="30000" />
     </task>
     <servers />
   </component>
